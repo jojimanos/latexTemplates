@@ -1,0 +1,159 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage[T1]{fontenc}
+\renewcommand{\familydefault}{\sfdefault}
+\usepackage{graphicx} % Required for including images
+\graphicspath{{./images/}}
+\usepackage{multicol} % Required for multiple columns
+\usepackage{hyperref}
+\setlength{\columnsep}{1cm}
+
+\pagestyle{empty}
+
+\begin{document}
+
+% Personal Information with Photo
+\begin{center}
+    \begin{minipage}{0.6\textwidth}
+        \textbf{\Huge George Manos}\\
+
+        \vspace{15pt}
+        \textbf{Front End Developer} \quad\\
+        \faPhone~+30 698 484 9275 \quad\\ 
+        \faEnvelope~manosgeorge7@gmail.com \quad\\ 
+        \faGithub~\href{https://github.com/jojimanos}{My GitHub Profile} \quad\\ 
+        \faLinkedin~\href{https://www.linkedin.com/in/%CE%B3%CE%B5%CF%8E%CF%81%CE%B3%CE%B9%CE%BF%CF%82-%CE%BC%CE%B1%CE%BD%CF%8C%CF%82-664216253/}{My Linkedin Account} \quad\\ 
+        \faMapMarker~Patision 67, Athens, Greece, 10434
+    \end{minipage}
+    \begin{minipage}{0.3\textwidth}
+        \includegraphics[width=4cm, height=4cm]{photo} 
+        % Replace 'your_photo.jpg' with your actual photo file name and path
+    \end{minipage}
+\end{center}
+
+        \vspace{15pt}
+% Create two columns
+\begin{multicols}{2}
+
+% Left column
+% Personal Goals and Orientation
+\section*{Personal Goals and Orientation}
+Personally inclined toward both the creative and analytical aspects 
+    of working, I Began studying frontend development in April 2022. 
+    My personal goals are to reach my full potential as a developer, 
+    mainly in frontend development but also in backend 
+    via a well-organized and ambitious corporation.
+
+% Education
+\section*{Education}
+\begin{itemize}[left=0pt]
+    \item \textbf{Civil Engineer} - School of Pedagogical and Technological Education ASPETE\\
+        \faCalendar~2010-2016\\
+    \item \textbf{Greek Philology} - National Kapodistrian University\\
+        \faCalendar~2017-2020\\
+    \item \textbf{Full Stack Development} - University Of Helsinky\\
+        Full Stack Open Course:\\
+        \href{https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/045c98c3143cedaf35dfdd1789921361}{\textbf{Cerificate Link}}\\
+        \faCalendar~2023\\
+\end{itemize}
+
+% Languages
+\section*{Languages}
+\begin{itemize}[left=0pt]
+    \item \textbf{English:} Excellent
+    \item \textbf{French:} Decent
+\end{itemize}
+
+% Work Experience
+\section*{Work Experience}
+\begin{itemize}[left=0pt]
+    \item \textbf{Civil Engineer} - 
+        Technical Department of the Municipality 
+        of New Heracleion, Neo Heracleion, Attika\\
+        \\
+        \faCalendar~2015-2016~~~\faMapMarker~Neo Herakleion-Attica\\
+        \\
+        During my stay at the Technical Service of the Municipality of Nea
+Irakleio, I dealt with dimensioning assessments on private projects on
+behalf of the Municipality, settling urban planning issues for both the
+Municipality and private individuals, as well as organizing tenders for
+the assignment of projects to private individuals.
+    \item \textbf{Special Education Teacher} - 
+        To Monopati, Nafplio, Argolida\\
+        \\
+        \faCalendar~2020-2023~~~\faMapMarker~Neo Herakleion-Attica\\
+        \\
+        Working as a special education teacher with kids of
+elementary and junior high school-level that face learning and
+coordination difficulties such as ADHD, mental disabilities and autism.
+\end{itemize}
+
+% Right column
+% Skills
+\section*{Technical Skills}
+\begin{itemize}[left=0pt]
+    \item Frontend coding in ReactJs
+    \item npm/yarn package manager
+    \item Web apps and websites in NEXT.js
+    \item Coding in TypeScript
+    \item State Management with Redux and Recoil
+    \item React Router for single-page apps
+    \item Chakra UI and React Icons
+    \item Cross-platform apps in React Native
+    \item Framework Expo for React Native
+    \item React Navigation for React Native
+    \item CSS and Tailwind CSS
+    \item VS Code and Vim
+    \item GIT CLI
+    \item Firestore/Firebase
+    \item Vercel for deployment
+    \item Node.js (Express)
+    \item CRUD for full-stack development
+    \item MongoDB locally and via Atlas
+    \item Docker
+\end{itemize}
+
+\end{multicols}
+
+% Projects - Not in columns
+\section*{Projects}
+\begin{itemize}[left=0pt]
+    \item \textbf{Professional website for a client} - Built with 
+        Next.js and utilizing Tailwind CSS for UI design. Used 
+        the email sender service from SendGrid for submitting messages 
+        through a contact form. The design is responsive for viewing 
+        on both computers and mobile phones.\\ 
+        \href{https://www.psychologos-ampatzoglou.gr/}{Project Link}
+    
+    \item \textbf{AlphaOmega} - A web application built with 
+        Next.js and Typescript, designed for learning Ancient 
+        Greek using the Christian scriptures as a reference.\\ 
+        \href{https://alpha-omega-khaki.vercel.app/}{Project Link}
+    
+    \item \textbf{Burger Builder App} - An exercise in React.js, 
+        designed with Next.js and Tailwind CSS. Authentication 
+        is handled by Firebase. Users' profiles and orders are 
+        stored in a database.\\ 
+        \href{https://burger-builder-lac-six.vercel.app/account/login?returnUrl=%2F}{Project Link}
+    
+    \item \textbf{Smart Verb Declenator App} - A web application 
+        created using Next.js and Tailwind CSS. Provides the 
+        complete declination of regular verbs in Ancient Greek.\\ 
+        \href{https://verb-declenator.vercel.app/}{Project Link}
+    
+    \item \textbf{React Native Joji Manos} - Ongoing library with 
+        UI components for the design of React Native applications.\\ 
+        \href{https://native-ezee-docs.vercel.app/}{Project Link: Docs}\\
+        \href{https://github.com/jojimanos/react-native-joji-manos}{Project Link: Docs}
+    
+\end{itemize}
+
+% Hobbies
+\section*{Hobbies}
+Drawing with graphite and charcoal, oil painting and portraits, 
+leather crafting, artistic bookbinding, and sibling crafts.
+
+\end{document}
+
