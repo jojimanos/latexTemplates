@@ -57,6 +57,18 @@ Personally inclined toward both the creative and analytical aspects
         Full Stack Open Course:\\
         \href{https://studies.cs.helsinki.fi/stats/api/certificate/fullstackopen/en/045c98c3143cedaf35dfdd1789921361}{\textbf{Cerificate Link}}\\
         \faCalendar~2023\\
+    \item \textbf{Full Stack Development} - University Of Helsinky\\
+        Full Stack Open Typescript Course:\\
+        \href{https://studies.cs.helsinki.fi/stats/api/certificate/fs-typescript/en/e793046403c545215ce4c966ce264d20}{\textbf{Cerificate Link}}\\
+        \faCalendar~2024\\
+    \item \textbf{} - Free Code Camp\\
+        Responsive Web Design:\\
+        \href{https://www.freecodecamp.org/certification/JojiManos/responsive-web-design}{\textbf{Cerificate Link}}\\
+        \faCalendar~2024\\
+    \item \textbf{} - Free Code Camp\\
+	    JavaScript Algorithms and Data Structures (Beta):\\
+        \href{https://www.freecodecamp.org/certification/JojiManos/javascript-algorithms-and-data-structures-v8}{\textbf{Cerificate Link}}\\
+        \faCalendar~2024\\
 \end{itemize}
 
 % Languages
@@ -118,8 +130,10 @@ coordination difficulties such as ADHD, mental disabilities and autism.
 \end{multicols}
 
 % Projects - Not in columns
-\section*{Projects}
+\section*{Portfolio}
 \begin{itemize}[left=0pt]
+    \item \textbf{Weather App with Next Js} - The application is built using the latest NEXT JS version and the UI is designed with the aid of Tailwind CSS. Weather forecast is real time displayed for the searched city across the world fetching data from the Open-Meteo.com API. The location coordinates are fetched from a MongoDB databse.\\ 
+        \href{https://next-weather-app-eight-henna.vercel.app/}{Project Link}
     \item \textbf{Professional website for a client} - Built with 
         Next.js and utilizing Tailwind CSS for UI design. Used 
         the email sender service from SendGrid for submitting messages 
@@ -135,18 +149,17 @@ coordination difficulties such as ADHD, mental disabilities and autism.
     \item \textbf{Burger Builder App} - An exercise in React.js, 
         designed with Next.js and Tailwind CSS. Authentication 
         is handled by Firebase. Users' profiles and orders are 
-        stored in a database.\\ 
+		stored in a database (firebase-firestore).\\ 
         \href{https://burger-builder-lac-six.vercel.app/account/login?returnUrl=%2F}{Project Link}
-    
+
+	\item \textbf{Reddit Clone} - A forum clone similar to reddit,
+		designed using Next.js, chakra UI, firebase and firestore.
+        \href{https://redditforum.vercel.app/}{Project Link}
+
     \item \textbf{Smart Verb Declenator App} - A web application 
         created using Next.js and Tailwind CSS. Provides the 
         complete declination of regular verbs in Ancient Greek.\\ 
         \href{https://verb-declenator.vercel.app/}{Project Link}
-    
-    \item \textbf{React Native Joji Manos} - Ongoing library with 
-        UI components for the design of React Native applications.\\ 
-        \href{https://native-ezee-docs.vercel.app/}{Project Link: Docs}\\
-        \href{https://github.com/jojimanos/react-native-joji-manos}{Project Link: Docs}
     
 \end{itemize}
 
